@@ -137,3 +137,33 @@ hr
     padding: 10px 30px;
 }
 /* footer-design-end */
+
+/* second-page-design-start */
+#upcoming-match
+{
+    background-color: teal;
+    color: white;
+}
+.match-details
+{
+    background-color: rgba(242, 238, 238, 0.93);
+    height: 220px;
+    width: 325px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.flag
+{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px 20px 0px 20px;
+    align-items: center;
+}
+.match-time
+{
+    padding-left: 10px;
+    text-align: center;
+}
+/* second-page-design-end */
