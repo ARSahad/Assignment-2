@@ -110,6 +110,17 @@
 {
     font-weight: 700;
 }
+.view-button
+{
+    text-decoration: none;
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    width: 100px;
+    text-align: center;
+    margin-left: 200px;
+}
 /* grid-design-end */
 
 
@@ -125,7 +136,7 @@ footer
 }
 hr
 {
-    color: rgba(161, 160, 158, 0.806);
+    color: rgba(243, 242, 240, 0.806);
     width: 1000px;
 }
 .footerbar a
@@ -250,6 +261,10 @@ hr
         display: flex;
         flex-direction: column;
     }
+    .view-button
+    {
+        visibility: hidden;
+    }
 }
 
 /* tablet-view-start */
@@ -319,3 +334,11 @@ hr
     }
 }
 /* tablet-view-end */
+@media only screen and (min-width: 992px)
+{
+    .view-button
+    {
+        display: none;
+    }
+    
+}
