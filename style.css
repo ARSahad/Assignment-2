@@ -136,6 +136,12 @@ hr
     color: white;
     padding: 10px 30px;
 }
+.social-icon a
+{
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+}
 /* footer-design-end */
 
 /* second-page-design-start */
