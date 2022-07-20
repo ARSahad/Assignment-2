@@ -21,7 +21,7 @@
 .banner-text a
 {
     text-decoration: none;
-    background-color: rgb(30, 72, 72);
+    background-color: teal;
     color: white;
     border-radius: 5px;
     padding: 10px 25px;
@@ -34,6 +34,42 @@
 .banner-image img
 {
     height: 550px;
-    padding-left: 50px;
+    /* padding-left: 50px; */
 }
 /* banner-part-end */
+
+/* main-section-start */
+
+/* side-button-start */
+.side-button
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    border-radius: 10px;
+    background-color: black;
+    padding: 20px 20px;
+    width: 200px;
+    height: 205px;
+}
+.side-button a
+{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+}
+.three-button
+{
+    font-weight: 700;
+    text-align: center;
+}
+#blog
+{
+    background-color: teal;
+    color: white;
+}
+/* side-button-end  */
+
+/* grid-design-start */
