@@ -243,6 +243,11 @@ hr
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         row-gap: 20px;
+        /* width: 80%; */
+    }
+    body
+    {
+        margin: 0 auto;
     }
     .player-blog
     {
@@ -269,7 +274,7 @@ hr
 
 /* tablet-view-start */
 
-@media only screen and (min-width:769px) and (max-width:992px)
+@media only screen and (min-width:769px) and (max-width:992px)  
 {
     .first-part h1
     {
@@ -293,14 +298,13 @@ hr
     
     .three-button
     {
-        border: 1px solid lightgray;
+        border: 1px solid white;
     }
     .grid
     {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         row-gap: 20px;
-        column-gap: 0px;
     }
     .side-button
     {
@@ -323,10 +327,6 @@ hr
         padding-left: 10px;
         margin: 0px 0px 0px 40px;
         column-gap: 10px;
-    }
-    .footer
-    {
-        width: 100px;
     }
     hr
     {
